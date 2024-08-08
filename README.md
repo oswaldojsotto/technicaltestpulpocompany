@@ -3,15 +3,16 @@
 Instrucciones para correr el proyecto localmente:
 
 Se debe clonar el repositorio con el siguiente comando en el terminal:
-git clone
-   ``` git clone https://gitlab.com/oswaldo6741032/technicaltest.git ```
+
+``` git clone https://gitlab.com/oswaldo6741032/technicaltest.git ```
 
 Una vez descargado, puede ir al URL local donde fue instalado el proyecto y correr el siguiente comando en el terminal:
 ``` npm install ```
 Esto va a iniciar el proceso de instalación de las dependencias del proyecto.
 Una vez instaladas las dependencias, puede correr el comando:
 ``` npm run dev ```
-y visualizar el proyecto en el siguiente URL: ``` http://localhost:3000/ ```
+y visualizar el proyecto en el siguiente URL:
+``` http://localhost:3000/ ```
 
 Documentación básica del proyecto:
 Se utilizó la última versión de Next.js para crear y configurar el proyecto.
