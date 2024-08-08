@@ -5,7 +5,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Prueba - Oswaldo Sotto",
-  description: "",
+  description: "Technical test for a company",
 };
 
 export default function RootLayout({ children }) {

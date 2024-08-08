@@ -6,7 +6,7 @@ import Image from "next/image";
 import useStore from "@/store/store";
 
 const Header = () => {
-  const { showPaymentScreen, setShowPaymentScreen } = useStore();
+  const { setShowPaymentScreen } = useStore();
   const { balance } = useStore();
 
   return (

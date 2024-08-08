@@ -11,9 +11,7 @@ const Navbar = () => {
       <div className="flex items-center justify-center gap-1 xs:gap-4 sm:hidden">
         <Image
           style={{ width: 24, height: 24 }}
-          className={`cursor-pointer drop-shadow-none shadow-none ${
-            !showPaymentScreen ? "hidden" : ""
-          }`}
+          className={`cursor-pointer  ${!showPaymentScreen ? "hidden" : ""}`}
           src="/icons/arrow_left_white.svg"
           alt="arrow_left_white"
           width={24}
@@ -22,10 +20,10 @@ const Navbar = () => {
         />
         <p className="font-semibold text-white">Gestión de Saldo</p>
       </div>
-      <ol className="hidden gap-4 pl-2 font-normal border-l-2 sm:flex border-l-white">
+      <ol className="hidden gap-4 pl-2 font-normal border-l sm:flex border-l-primary_20">
         {items.map((item, index) => (
           <li
-            className="text-sm font-medium text-white transition cursor-pointer hover:text-primary_hover all active:text-primary_pressed"
+            className="p-2 text-sm font-medium text-white transition rounded-md cursor-pointer hover:bg-white hover:text-primary all active:text-primary_pressed"
             key={index}>
             {item}
           </li>
